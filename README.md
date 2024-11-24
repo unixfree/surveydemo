@@ -9,7 +9,7 @@
 **관리형 Couchbase(Capella)** 를 사용하는 경우에는 *surveydemo/ServerSyncView.swift* 파일에서 *URLEndpoint*를 아래와 같이 수정하면 됩니다. <br>
 
             // 서버 엔드포인트 설정 (요청하신 URL로 수정)
-            let target = URLEndpoint(url: URL(string: "wss://4qo2iwqqtdjhj1gl.apps.cloud.couchbase.com:4984/demo")!)
+            let target = URLEndpoint(url: URL(string: "wss://xxxxxxxxxx.apps.cloud.couchbase.com:4984/travel-sample")!)
             var replConfig = ReplicatorConfiguration(target: target)
 
 ## 설치 및 구성 방법 <br>
