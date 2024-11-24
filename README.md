@@ -6,7 +6,11 @@
 <br>Windows나 Linux환경에서 테스트시에는 OS에 종속된 부분은 수정/보완하여 테스트 하십시오. <br>
 
 **설치형 Couchbase**를 사용하는 데모이며, <br>
-**관리형 Couchbase(Capella)**를 사용하는 데모는 https://github.com/unixfree/surveydemo_capella 에 있습니다. <br>
+**관리형 Couchbase(Capella)**를 사용하는 경우에는 아래와 같이 ㅇㅇ 를 수정하면 됩니다. <br>
+
+            // 서버 엔드포인트 설정 (요청하신 URL로 수정)
+            let target = URLEndpoint(url: URL(string: "wss://4qo2iwqqtdjhj1gl.apps.cloud.couchbase.com:4984/demo")!)
+            var replConfig = ReplicatorConfiguration(target: target)
 
 ## 설치 및 구성 방법 <br>
 데모의 자세한 구성 방법은 **[Couchbase_lite_sync_gateway.pdf]** 화일에 있습니다. <br>
