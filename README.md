@@ -2,6 +2,8 @@
 
 **이 소스는 카우치베이스 DB, Sync Gateway, Couchbase Lite가 어떻게 동작하는지는 보여 주는 데모입니다.** <br>
 
+![hybrid search demo](main.png) ![hybrid search demo](survey.png)
+
 아래에 설명된 내용은 카우치베이스 DB, Sync Gateway는 **Linux**이고, Couchbase Lite(APP)는 **MacOS** 환경에서 구현한 내용입니다. 
 <br>Windows나 Linux환경에서 테스트시에는 OS에 종속된 부분은 수정/보완하여 테스트 하십시오. <br>
 
