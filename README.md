@@ -13,6 +13,6 @@
             var replConfig = ReplicatorConfiguration(target: target)
 
 ## 설치 및 구성 방법 <br>
-데모의 자세한 구성 방법은 **[Couchbase_lite_sync_gateway.pdf]** 화일에 있습니다. <br>
+데모의 자세한 구성 방법은 **[Mobile_Survey_Demo_v1.0.pdf]** 화일에 있습니다. <br>
 
-[Couchbase_lite_sync_gateway.pdf]: https://github.com/unixfree/surveydemo/blob/main/Couchbase_lite_sync_gateway.pdf
+[Couchbase_lite_sync_gateway.pdf]: https://github.com/unixfree/surveydemo/blob/main/Mobile_Survey_Demo_v1.0.pdf
