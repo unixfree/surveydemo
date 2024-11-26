@@ -46,7 +46,7 @@ struct ServerSyncView: View {
             // 컬렉션 및 기본 충돌 해결 방식 추가
             replConfig.addCollection(collection)
             //Couchbase Server에서 생성한 User 정보 RestAPI "Authorization: Basic $DIGEST" 방식과 동일
-            replConfig.authenticator = BasicAuthenticator(username: "syncgateway", password: "password")
+            replConfig.authenticator = BasicAuthenticator(username: "investigator", password: "Passw0rd!")
             replConfig.replicatorType = .pushAndPull
 
             // 동기화 시작
